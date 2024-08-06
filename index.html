@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="superNav border-bottom py-2 mainbox">
+    <div class="container" >
+      <div class="row" >
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile" >
+       
+          <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><strong>info@somedomain.com</strong></span>
+          <span class="me-3"><i class="fa-solid fa-phone me-1 text-dark"></i> <strong>1-800-123-1234</strong></span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
+          <span class="me-3"><i class="fa-solid fa-file  text-muted me-2"></i> <a  href="#" style="color: black;text-decoration:none">Policy</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm">
+    <div class="container bg-white">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-shop me-2"></i> <strong>UTENSILS STORE</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="mx-auto my-3 d-lg-none d-sm-block d-xs-block">
+        <div class="input-group">
+          <span class="border-dark input-group-text searchbtn text-white"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input type="text" class="form-control border-dark" style="color:#e01515">
+          <button class="searchbtn text-white">Search</button>
+        </div>
+      </div>
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="ms-auto d-none d-lg-block">
+          <div class="input-group">
+            <span class="border-dark input-group-text searchbtn text-white"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="text" class="form-control border-dark"  placeholder="Search here">
+            <button class="searchbtn text-black">Search</button>
+          </div>
+        </div>
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase active " id="mynavlink" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="product.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="comparison.html">Quality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 text-uppercase" id="mynavlink" href="contact.html">Contact</a>
+          </li>
+        
+      </ul>
+
+      </div>
+    </div>
+  </nav>
+     
+
+      <!-- banner -->
+      <div class="container-fluid">
+        <div class="row" >
+          <div class="col-md-4 bannerbox shadow-lg" data-aos="fade-right">
+            <h1>For A <span class="input_text"></span> <br>Cooking Experinces</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eos consectetur perspiciatis quidem, ut odio! Similique, inventore dolorum? Atque, error!</p>
+            <button class="text-white p-2" id="shopnowbtn">Shop Now</button>
+            <button class=" p-2" id="learnmorebtn"><a href="about.html" style="color: red;">Learn more</a></button>
+          </div>
+          <div class="col-md-8">
+            <div class="imgage">
+            
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+    
+      <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-8"></div>
+        </div>
+      </div>
+      <div class="show"><br>
+        <div class="caraxis">
+          <ul>
+            <li><a href=""></a>Caraxis</li>
+            <li><a href=""></a>TopChef</li>
+            <li><a href=""></a>Utensil Star</li>
+            <li><a href=""></a>Homething</li>
+            <li><a href=""></a>Kitcraft</li>
+          </ul>
+
+        </div>
+         -->
+
+
+     
+    <br><br>
+ <div class="container" data-aos="fade-up">
+  <div class="row">
+    <div class="col-md-3 col-sm-3"><a href="" class="btn btn-info text-black" style="width: 100%;">Caraxis</a></div>
+    <div class="col-md-3 col-sm-3"><a href="" class="btn btn-info text-black" style="width: 100%;">TopChef</a></div>
+    <div class="col-md-3 col-sm-3"><a href="" class="btn btn-info text-black" style="width: 100%;">KitchenStar</a></div>
+    <div class="col-md-3 col-sm-3"><a href="" class="btn btn-info text-black" style="width: 100%;">HomeMaking</a></div>
+  </div>
+ </div>
+
+ 
+  
+
+
+    
+ 
+ <section class="wrapper">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center mb-5">
+        <h2 class="display-4 font-weight-bolder">Discovery Our Collection</h2>
+        <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card text-light card-has-bg click-col"
+          style="background-image:url('https://us.123rf.com/450wm/meykitchen/meykitchen2305/meykitchen230505575/205525224-kitchen-utensils-and-vegetables-on-the-table-food-background.jpg?ver=6');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?" style="background-size: 100% 100%;">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <small class="card-meta mb-2"></small>
+              <h4 style="color: black;" class="card-title mt-0 "><a class="text-light"
+                  herf="https://creativemanner.com" style="background-size: 100% 100%;"></a>Kitchen Things</h4>
+              <small><i class="far fa-clock"></i></small>
+              <button class="own"><a href="product.html" style="color: white;">Click</a></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card text-dark card-has-bg click-col"
+          style="background-image:url('https://www.licensestorehouse.com/t/708/baking-stargazers-22062326.jpg.webp');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?" style="background-size: 100% 100%;">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <small class="card-meta mb-2"></small>
+              <h4 class="card-title mt-0 text-light  "><a class="text-dark"
+                  herf="https://media.istockphoto.com/id/598931916/photo/set-of-metal-pots-cookware-on-a-wooden-domestic-kitchen.jpg?s=612x612&w=0&k=20&c=CMZ0KOkAdTduhXVjEqoK2hLuj4ytQ170GTD_k2KbUQQ="></a>
+                Cookware</h4>
+              <small><i class="far fa-clock"></i></small>
+              <button class="own"><a href="product.html" style="color: white;">Click</a></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card text-dark card-has-bg click-col"
+          style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQPJLA6kDjTSU-yiI5Lmoav5q96UI6dnXgw&usqp=CAU');">
+          <img class="card-img d-none " src="https://source.unsplash.com/600x900/?computer,design"
+            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <small class="card-meta mb-2"></small>
+              <h4 class="card-title mt-0 text-light "><a class="text-dark"
+                  herf="https://creativemanner.com"></a>Kitchen Utensils</h4>
+              <small><i class="far fa-clock"></i></small>
+              <button class="own"><a href="product.html" style="color: white;">Click</a></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card text-dark card-has-bg click-col"
+          style="background-image:url('https://images.unsplash.com/photo-1582828462913-ff94884827ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3V0bGVyeXxlbnwwfHwwfHx8MA%3D%3D');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+            alt=" Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <small class="card-meta mb-2"></small>
+              <h4 class="card-title mt-0 text-light"><a class="text-dark"
+                  herf="https://creativemanner.com"></a>Kitchen Knifes</h4>
+              <small><i class="far fa-clock"></i></small>
+              <button class="own"><a href="product.html" style="color: white;">Click</a></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mb-5">
+        <h2 class="display-4 font-weight-bolder">Great Quality</h2>
+        <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" >
+    <div class="row" data-aos="fade-right">
+      <div class="col-lg-6 quick">
+
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left" >
+        <h1 class="texts">The Best Quality Of Utesnsils Are Here</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi placeat odit, soluta quo alias eius, dolores
+          repudiandae dolorum sapiente ducimus id, nemo deserunt pariatur in quae quibusdam! Illo, perferendis! Aperiam
+          architecto maiores laborum repellendus quibusdam rem facere, eum, ex recusandae aut deleniti doloribus! Quis
+          ullam nisi voluptates officiis tempora ipsum?</p> <br>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-up">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <i class="fa-regular fa-square-check fa-2xl" style="color: #f00000;font-size:40px;"></i><br><br>
+
+            <p style="margin-left: 22px;">Trusted Shop</p>
+
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-regular fa-thumbs-up fa-2xl" style="color: #f40109;font-size:40px"></i><br><br>
+
+            <p style="margin-left: 22px;">Best Quality</p>
+
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-wallet fa-2xl" style="color: #ff0f0f;font-size:40px"></i><br><br>
+            <p style="margin-left: 28px;">Best Prize</p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br><br>
+
+<!-- <div class="container">
+  <div class="row">
+    
+  </div>
+  <div class="container">
+    <div class="row">
+   <div class="col-md-3 shadow">
+    <div class="itembox">
+      <div class="box1" >
+    </div>
+    <div class="col-md-3 col-sm-3">
+      <p>Wooden Plate</p>
+      <button class="down">Add To Cart</button>
+      </div>
+    </div>
+   </div>
+   <div class="col-md-3 shadow">
+    <div class="box2" >
+
+    </div>
+  </div>
+    <div class="col-md-3 shadow">
+    <div class="box3" >
+
+    </div>
+  </div>
+    <div class="col-md-3 shadow">
+    <div class="box4" >
+      
+    </div>
+  </div>
+  </div>
+  </div><br>
+
+   </div><br> -->
+
+
+   <div class="container mt-2">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col text-center mb-5">
+          <h2 class="display-4 font-weight-bolder">Our Popular Product</h2>
+          <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up">
+
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/Steel_fry_pan.png"
+            alt="Photo of sunset">
+        <center>  <h5 class="cardset-title mt-5 mb-4">Stain Fry Pan</h5>
+          <p class="cardset-text">$13.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" >
+        <div class="cardset card-block">
+          <img src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/wood-utensil.png"
+            alt="Photo of sunset">
+            <center>  <h5 class="cardset-title mt-5 mb-4">Wooden Spectula Set</h5>
+              <p class="cardset-text">$45.00 
+                <br>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+              
+                  <i class="fas fa-star  text-warning fa-xs"></i>
+                
+                <br>
+               <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+                <br>
+        
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="cardset card-block">
+          <img
+            src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/electric-blender-kitchen-appliance-equipment-iso.png"
+            alt="Photo of sunset">
+            <center>  <h5 class="cardset-title mt-5 mb-4">Electric Blender</h5>
+              <p class="cardset-text">$25.00 
+                <br>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"> </i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+                <!-- <li class="list-inline-item me-0"> -->
+                  <i class="fas fa-star text-warning fa-xs"></i>
+                </li>
+              
+                  <i class="fas fa-star  text-warning fa-xs"></i>
+                
+                <br>
+               <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+                <br>
+        
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img
+            src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/new-ceramic-baking-dish-isolated-on-white.png"
+            alt="Photo of sunset">
+       <center>   <h5 class="cardset-title  mt-3 mb-3">Eggs Tray</h5>
+          <p class="cardset-text">$13.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5" data-aos="fade-up">
+
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img
+            src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/new-ceramic-non-stick-frying-pan-on-white-backgrou.png"
+            alt="Photo of sunset">
+        <center>   <h5 class="cardset-title mt-3 mb-3">Ceramic Fry Pan</h5>
+          <p class="cardset-text">$20.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img
+            src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/new-set-of-black-cookware-isolated-on-white.png"
+            alt="Photo of sunset">
+     <center>     <h5 class="cardset-title  mt-3 mb-3">Piece Cookware Set</h5>
+          <p class="cardset-text">$24.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/Fry_pan_square.png"
+            alt="Photo of sunset">
+          <center> <h5 class="cardset-title  mt-3 mb-3">Blue Fry Pan</h5>
+          <p class="cardset-text">$13.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="cardset card-block">
+          <img src="https://templatekit.jegtheme.com/kitchenia/wp-content/uploads/sites/273/2022/04/knife-block.png"
+            alt="Photo of sunset">
+      <center>    <h5 class="cardset-title  mt-3 mb-3">Knife Set</h5>
+          <p class="cardset-text">$28.00 
+            <br>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"> </i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+            <!-- <li class="list-inline-item me-0"> -->
+              <i class="fas fa-star text-warning fa-xs"></i>
+            </li>
+          
+              <i class="fas fa-star  text-warning fa-xs"></i>
+            
+            <br>
+           <button class="itembtn" style="border-radius: 12px;">Add To Cart </button></center>
+            <br>
+    
+      </p>
+        </div>
+      </div>
+    </div>
+
+  </div><br><br>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6  boximg" data-aos="fade-right">
+          <h2 class="mt-5 , text-light">Bundle & Save</h2>
+          <h6>10% OFF</h6>
+          <small>Shop now</small>
+        </div>
+        
+     
+        <div class="col-md-6 imgbox" data-aos="fade-left">
+          <h2 class="mt-5 , text-dark">Upto 55% Off</h2>
+          <h6 class="text-light">Special Valentine Days</h6>
+          <small class="text-light">Shop now</small>
+        </div>
+
+      </div>
+    </div><br><br><br><br>
+    <div class="container-fluid mt-5" id="customer">
+      <div class="row">
+        <!-- Customer Testimonials -->
+        <div class="col-xl-6 col-sm-6 mb-5 customerbox" data-aos="fade-left">
+          <h1 class="cuss">Our Customers Say</h1>
+          <div class="owl-carousel owl-theme shadow" id="testimonial-carousel">
+            <div class="testimonial-item bg-white rounded shadow-sm">
+              <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt=""  id="tesss"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Eline Verhoeven</h5>
+              <span class="small text-uppercase text-muted">CEO - Founder</span>
+              <div class="stars mt-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                <!-- Testimonial text here -->
+              </p>
+              <ul class="social-icons">
+                <li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+  
+            <!-- Repeat the above structure for the second testimonial and others -->
+  
+          </div>
+        </div>
+  
+        <!-- CEO Image -->
+        <div class=" col-xl-6 col-md-6 customerimg">
+
+        </div>
+      </div>
+    </div>
+
+ <br>
+
+
+   <center>
+    <div class="container mt-5">
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-3 col-sm-6 border-end  border-3 " style="padding-left: 20px;">
+          <i class="fa-sharp fa-solid fa-truck" style="font-size: 50px;color:#294d5c;padding-left:10px" ></i>
+          <h3>Free Shiping</h3>
+          <p><small>orders over $500</small></p>
+        </div>
+        <div class="col-md-3 col-sm-6 border-end  border-3 px-2">
+          <i class="fa-solid fa-wallet" style="font-size: 50px;color:#294d5c;padding-left:10px"></i>
+          <h3>Quick Paymemts</h3>
+          <p><small>100% Secure</small></p>
+        </div>
+        <div class="col-md-3 col-sm-6 border-end  border-3 px-2">
+          <i class="fa-solid fa-dollar-sign" style="font-size: 50px;color:#294d5c;padding-left:10px"></i>
+          <h3> Big Deals</h3>
+          <p><small>Over 40% Cash Back</small></p>
+        </div>
+        <div class="col-md-3 col-sm-6 px-2">
+          <i class="fa-regular fa-clock"  style="font-size: 50px;color:#294d5c;padding-left:10px"></i>
+          <h3>24/7 Support</h3>
+          <p><small>Ready For You</small></p>
+        </div>
+      </div>
+    </div>
+   </center><br><br><br>
+
+
+   <center>
+    <div class="container-fluid mt-5" data-aos="fade-down">
+      <div class="row">
+        <div class="col-md-12">
+          <iframe width="90%" height="500px" src="https://www.youtube.com/embed/NVegQeQSWrM?si=BP7NDBXkn4Yx0CQ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  style="border-radius: 5%;"></iframe>
+        </div>
+      </div>
+     </div>
+   </center><br><br><br><br>
+
+   <div class="container-fluid mt-5" id="newsletter">
+    <div class="row">
+        <div class="col-md-6 p-5">
+            <h1>Subscribe & Get 10% Off</h1>
+            <p>Join our email subscription now to get updates on promotions and coupons.</p>
+        </div>
+        <div class="col-md-6 p-5">
+            <div class="contacttext">
+                <input type="text" placeholder="Your Email...." class="form-control">
+            <button class="btn btn-danger p-2">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+   </div>
+
+   <div class="container-fluid footer">
+    <div class="row">
+   
+        <div class="col-lg-3">
+          <ul class="mt-3"> 
+            <li class="footerend" style="font-size: 30px;"  >Quick Links</li> <br>
+            <li class="footerend" >Abouts us</li>
+            <li class="footerend" >Contact us</li>
+            <li class="footerend" >Comparison</li>
+            <li class="footerend" >Feedbcak</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="mt-3">
+         <li class="footerend" style="font-size: 30px;" > Other Pages</li> <br>
+           <li class="footerend" > Privacy & Policy</li>
+           <li class="footerend" > Terms of Use</li>
+          <li class="footerend" >  Disclaimer</li>
+           <li class="footerend" > FAQ</li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="mt-3">
+           <li class="footerend" style="font-size: 30px;" > Contact Info</li> <br>
+<li class="footerend" ><i class="fa-solid fa-location-dot" style="color: orange;"></i> Jl. Tukad Yeh Aya No.16 X, Panjer, Denpasar, Bali</li>
+<li class="footerend" ><i class="fa-solid fa-phone"  style="color: orange;"></i> +62 361 154874</li>
+<li class="footerend" ><i class="fa-solid fa-envelope"  style="color: orange;"></i> contact@domain.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="mt-3">
+          <li class="footerend" style="font-size: 30px;" >  Open Hour</li> <br>
+<li class="footerend" >Mon - Fri : 09:30 AM - 22:00PM</li>
+<li class="footerend" >Sat - Sun : 10:00 AM - 22:30PM</li>
+<br><br><br><br><br>
+
+
+          </ul>
+        </div>
+        <hr style="color: white;">
+          <h2 style="color: white;">Utensils Store <span class="lowerend">Utensils Template Kit by Jegtheme</span></h2>
+          </div>
+        </div>
+       
+    </div>
+   </div>
+  
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        delay: 100,
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          autoplay:true,
+          responsive:{
+            414:{
+              items:1
+            },
+            760:{
+              items:2
+            },
+            960:{
+              items:2
+            },
+          }
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+      var typed=new Typed(".input_text",{
+          strings:["Best","Good"],
+          typespeed:100,
+          
+          loop:true,
+      })
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.searchbtn').click({
+        
+      });
+    })
+  </script>
+</body>
+</html>

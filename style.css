@@ -1,0 +1,805 @@
+
+ *{
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  .mainbox{
+      background-color: #294d5c;
+     }
+     .searchbtn{
+       background-color: #294d5c;
+       border-radius: 5px;
+       font-weight: bold;
+     }
+      ul li a{
+       color: gray;
+     }
+      ul li a:hover{
+       color: red;
+     }
+     
+     .bannerbox{
+        /* position: absolute;  */
+        height: 400px;
+       /* width: 500px;  */
+       position: relative;
+       left: 100px;
+       top: 50px;
+       background-color: black;
+       z-index: 2;
+       background-color: white;
+     padding: 50px;
+       
+     }
+     .textchamge{
+       color: red;
+       font-weight: bolder;
+       font-family: Georgia, 'Times New Roman', Times, serif
+       
+     }
+     #learnmorebtn{
+       width: 150px;
+       border-radius: 7px;
+       border: 2px solid black;
+       color: black;
+     }
+     #learnmorebtn:hover{
+       background-color: black;
+       border-radius: 7px;
+       color: white;
+       width: 150px;
+     }
+     #shopnowbtn{
+       width: 150px;
+       background-color: black;
+       border-radius: 7px;
+     
+     }
+     #mynavlink:hover{
+       color: red;
+     }
+     .active{
+       color: red;
+     }
+     .input_text{
+       color: red;
+     }
+     .bottom{
+       list-style: none;
+       display: flex;
+       display: inline-block;
+       margin: 120px;
+     }
+ @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+.imgage{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5LMRJTmqVNbHbq1w86Du2wsS1S_AomcePw&usqp=CAU");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: sliding;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes sliding {
+    25%{
+        background-image: url("https://na.rdcpix.com/580313975/66d96b113fe0622083079fd012bae6daw-c0rd-w832_h468_r4_q80.jpg");
+    }
+    50%{
+        background-image: url("https://www.ikea.com/global/assets/range-categorisation/images/cooking-utensils-33498.jpeg?imwidth=400");
+    }
+    75%{
+        background-image: url("https://media.istockphoto.com/id/493574516/photo/high-pressure-aluminum-cooking-pot-with-safety-cover.jpg?s=612x612&w=0&k=20&c=_o-5EleHXrrm-cl649faq23YRu5Of5oKh_NvtH96WI0=");
+    }
+    100%{
+        background-image: url("https://www.shutterstock.com/image-photo/modern-multi-cooker-products-on-260nw-1474966658.jpg");
+    }
+}
+
+
+.bannerbox{
+   /* position: absolute;  */
+   height: 400px;
+  /* width: 500px;  */
+  position: relative;
+  left: 100px;
+  top: 50px;
+  background-color: black;
+  z-index: 2;
+  background-color: white;
+padding: 50px;
+  
+}
+.textchamge{
+  color: red;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  
+}
+#learnmorebtn{
+  width: 150px;
+  border-radius: 7px;
+  border: 2px solid black;
+  color: black;
+}
+#learnmorebtn:hover{
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+  width: 150px;
+}
+#shopnowbtn{
+  width: 150px;
+  background-color: black;
+  border-radius: 7px;
+
+}
+#mynavlink:hover{
+  color: red;
+}
+.active{
+  color: red;
+}
+.input_text{
+  color: red;
+}
+.bottom{
+  list-style: none;
+  display: flex;
+  display: inline-block;
+  margin: 120px;
+}
+a{
+  text-decoration: none;
+  font-size: large;
+}
+.kite{
+  font-weight: bolder;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+
+/* .content1{
+
+  background-image: url("https://www.shutterstock.com/image-photo/metal-cooking-utensils-on-table-260nw-1042252666.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.content2{
+
+  background-image: url("https://m.media-amazon.com/images/I/71NExhVmrpL._AC_UF350,350_QL80_.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.content3{
+
+  background-image: url("https://media.istockphoto.com/id/1307632435/photo/open-drawer-with-different-utensils-in-kitchen-top-view.jpg?s=612x612&w=0&k=20&c=kRUGQXwtqEE-7NColZsfJd___iQc-B2OZWbnZcTdhjg=");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+.content4{
+
+  background-image: url("https://img.freepik.com/premium-photo/set-dishes-closeup-colored-background-kitchen-appliances_441923-1884.jpg?w=360");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+} */
+/* .boxes{
+  background-image: url("utensils-tile.jpg");
+  height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+} */
+
+
+ 
+  .lead{
+    color:#aaa;
+  }
+  
+  .wrapper{margin:10vh}
+
+  
+  .card{
+    border: 3px solid black;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+   overflow:hidden;
+   min-height:450px;
+     box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+  
+   @media (max-width: 768px) {
+    min-height:350px;
+  }
+  
+  @media (max-width: 420px) {
+    min-height:00px;
+  }
+  
+   &.card-has-bg{
+   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-size:120%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: inherit;
+      border: 2px solid black;
+     }
+  
+    &:hover {
+      transform: scale(0.98);
+       box-shadow: 0 0 5px -2px rgba(0,0,0,0.3);
+      background-size:130%;
+       transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  
+      
+    }
+    .ions{
+      padding-right: 50px;
+      
+      
+    }
+    .own{
+      background-color: #294d5c;
+      color: white;
+      padding: 10px;
+      border: none;
+      font-size: 20px;
+    }
+  }
+   .card-footer{
+    background: none;
+     border-top: none;
+      .media{
+       img{
+         border:solid 3px rgba(255,255,255,0.3);
+       }
+     }
+   }
+    .card-title{font-weight:800}
+   .card-meta{color:rgba(0,0,0,0.3);
+    text-transform:uppercase;
+     font-weight:500;
+     letter-spacing:2px;}
+   .card-body{ 
+     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+   
+  
+    }
+   &:hover {
+     .card-body{
+       margin-top:30px;
+       transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+     }
+   cursor: pointer;
+   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+   
+  }
+  @media (max-width: 767px){
+    
+  }
+  .card-img{
+    background-size: 100% 100%;
+  }
+  .quick{
+    height: 400px;
+    width: 50%;
+    background-image: url("https://img.onmanorama.com/content/dam/mm/en/food/features/images/2023/9/2/stainless-steel.jpg.transform/576x300/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  }
+  .texts{
+    text-align: center;
+  }
+  .containerbox{
+    display: flex;
+    justify-content: center;
+  }
+  .box1{
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://www.betterequipped.co.uk/pub/media/catalog/product/cache/a7b20ef70c34db9edb64d1963c018af1/e/a/easy-cook_ceramic_fry_pan_24cm.jpg");
+    
+  }
+  .box2{
+    height: 200px;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://static-01.daraz.pk/p/6a903374cf020d1e04e31b72dd433676.jpg_750x750.jpg_.webp")
+
+  }
+  .box3{
+    height: 200px;
+ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-juicer-of-all-kinds-with-ingredients-and-fruits-image_2569986.jpg");
+
+  }
+  .box4{
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://www.huhtamaki.com/globalassets/global/highlights/responsibility/multi-e-egg-tray.jpg?width=640&format=webp&quality=80");
+
+  }
+  .name{
+    display: inline-block;
+    justify-content: center;
+  }
+  .design{
+   font-weight: bolder;
+   font-size: larger;
+  }
+  .color{
+    display: flex;
+    justify-content: space-between;
+  }
+.itembox{
+  height: 200px;
+  width: 200px;
+}
+img{
+  height:150px;
+  width:100%;
+}
+
+div [class^="col-"]{
+  padding-left:5px;
+  padding-right:5px;
+}
+.cardset{
+  transition:0.5s;
+  cursor:pointer;
+}
+.cardset-title{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+.cardset-title i{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  color:#ffa710
+}
+.cardset-title i:hover{
+  transform: scale(1.25) rotate(100deg); 
+  color:#18d4ca;
+  
+}
+.cardset:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.cardset-text{
+  height:80px;  
+}
+
+.cardset::before, .cardset::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.cardset::before {
+  transform-origin: left top;
+}
+.cardset::after {
+  transform-origin: right bottom;
+}
+.cardset:hover::before, .cardset:hover::after, .cardset:focus::before, .cardset:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.itembtn{
+  background-color: #294d5c;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+}
+.boximg{
+  background-image: url("https://www.tprteaching.com/wp-content/uploads/2022/12/kitchen-utensils.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 49%;
+  
+
+}
+.imgbox{
+  background-image: url("https://www.natural-cure.org/wp-content/uploads/IndainCookware-JKYog-NaturalCure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+  position: relative;
+  left: 20px;
+
+
+}
+
+#customer {
+    background: white;
+   
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+.customerimg{
+  background-image: url("https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/Article-2018/8d26dba169645749d8097f7d2b4cc197_XL.jpg");
+  height: 400px;
+  background-size: cover;
+  height: 600px;
+}
+.customerbox{
+  height: 200px;
+ 
+}
+.footer{
+  background-color: #294d5c;
+}
+.footerend{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.lowerend{
+  font-size: small;
+}
+#newsletter{
+    background-color: #f6f6f6;
+    height: 200px;
+}
+.contacttext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*{
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  .mainbox{
+      background-color: #294d5c;
+     }
+     .searchbtn{
+       background-color: #294d5c;
+       border-radius: 5px;
+       font-weight: bold;
+     }
+      ul li a{
+       color: gray;
+     }
+      ul li a:hover{
+       color: red;
+     }
+     
+     .bannerbox{
+        /* position: absolute;  */
+        height: 400px;
+       /* width: 500px;  */
+       position: relative;
+       left: 100px;
+       top: 50px;
+       background-color: black;
+       z-index: 2;
+       background-color: white;
+     padding: 50px;
+       
+     }
+     .textchamge{
+       color: red;
+       font-weight: bolder;
+       font-family: Georgia, 'Times New Roman', Times, serif
+       
+     }
+     #learnmorebtn{
+       width: 150px;
+       border-radius: 7px;
+       border: 2px solid black;
+       color: black;
+     }
+     #learnmorebtn:hover{
+       background-color: black;
+       border-radius: 7px;
+       color: white;
+       width: 150px;
+     }
+     #shopnowbtn{
+       width: 150px;
+       background-color: black;
+       border-radius: 7px;
+     
+     }
+     #mynavlink:hover{
+       color: red;
+     }
+     .active{
+       color: red;
+     }
+     .input_text{
+       color: red;
+     }
+     .bottom{
+       list-style: none;
+       display: flex;
+       display: inline-block;
+       margin: 120px;
+     }
+#contactbanner{
+  background-image: url("https://us.123rf.com/450wm/thvideo/thvideo2303/thvideo230391789/200444868-bakery-equipment-cooking-set-cooking-utensils-upper-view-generative-ai.jpg?ver=6");
+  background-size: 100% 100%;
+  height: 500px;
+  padding-top: 150px;
+}
+#textbanner{
+  background-color: white;
+  height: 200px;
+  text-align: center;
+  letter-spacing: 1px
+}
+#contactgt{
+  color: red;
+  font-weight: bold;
+  padding: 4px;
+}
+#contacticon{
+  font-size: 40px;
+  text-align: center;
+  color: red;
+}
+#newsletter{
+  background-color: #f6f6f6;
+  height: 200px;
+}
+.contacttext{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footertop{
+  height: 400px;
+  width: 100%;
+  background-color: #294d5c;
+}
+/* @media (max-width: 400px) {
+  .footertop {
+   height: 1000px;
+  }
+} */
+
+.footerend{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.footertop{
+  height: 400px;
+  width: 100%;
+  background-color: #294d5c;
+}
+.footerend{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #f5f7fa;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.wrapper > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  color: white;
+  background-color: #294d5c;
+  /* color: rgba(0, 0, 0, 0.8); */
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f7f5;
+  color: #294d5c;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  color:#294d5c;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+.faq.active {
+  border: none;
+  background-color: #294d5c;
+  color: #294d5c;
+}
+.stars {
+  color: #FFD700;
+  /* Adjust star color as needed */
+  font-size: 18px;
+  /* Adjust star size as needed */
+}
+
+.testimonial-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  /* Adjust social icon color as needed */
+  font-size: 20px;
+  /* Adjust social icon size as needed */
+}
+
+.customerimg {
+  height: 400px;
+  /* Adjust the height as needed */
+  background-image: url("https://us.123rf.com/450wm/thvideo/thvideo2303/thvideo230391789/200444868-bakery-equipment-cooking-set-cooking-utensils-upper-view-generative-ai.jpg?ver=6");
+  background-size: cover;
+  background-position: center;
+}
+#tesss{
+  margin-left: 150px;
+  width: 80px;
+}
+.cuss{
+  text-align: center;
+}
+
+.fas.fa-heart:hover {
+  color: #f44336 !important;
+}
+
+.fas.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+.comp{
+  height: 300px;
+}
